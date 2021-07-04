@@ -25,7 +25,7 @@ Alfred中输入`yq > login` ，输入语雀中获取的Token并回车即可
 
 浏览器打开一篇文档，调试模式下可以找到这两个值
 
-![Untitled 1](https://user-images.githubusercontent.com/41355260/124374450-d5e6a100-dccd-11eb-98d0-e08ad89a91f0.png)
+![CleanShot 2021-07-04 at 13 15 56@2x](https://user-images.githubusercontent.com/41355260/124374719-4989ad80-dcd0-11eb-8a2c-8c55e2560b60.png)
 
 
 Alfred全局变量中录入这两个值
