@@ -32,8 +32,8 @@ Alfred全局变量中录入这两个值
 
 ### 4. 使用
 
-- 回车可在浏览器中打开文档
-- 按⌘可将分享链接复制到剪贴板
+- 回车可在浏览器中打开文档（原项目功能）
+- 按⌘可将分享链接复制到剪贴板（新增）
 
 
 ![Untitled 3](https://user-images.githubusercontent.com/41355260/124374453-e565ea00-dccd-11eb-954c-fa1c20fc200b.png)
