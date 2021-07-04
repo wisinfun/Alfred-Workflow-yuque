@@ -14,19 +14,20 @@
 
 Alfred中输入`yq > login` ，输入语雀中获取的Token并回车即可
 
-![Untitled 1](https://user-images.githubusercontent.com/41355260/124374450-d5e6a100-dccd-11eb-98d0-e08ad89a91f0.png)
+![Untitled](https://user-images.githubusercontent.com/41355260/124374456-e8f97100-dccd-11eb-9a68-79c82e185407.png)
 
 
 ### 3. 设置`Cookie`和`x-csrf-token`
 
 浏览器打开一篇文档，调试模式下可以找到这两个值
 
-![Untitled 2](https://user-images.githubusercontent.com/41355260/124374452-e0089f80-dccd-11eb-9ce3-3a350f292d07.png)
+![Untitled 1](https://user-images.githubusercontent.com/41355260/124374450-d5e6a100-dccd-11eb-98d0-e08ad89a91f0.png)
 
 
 Alfred全局变量中录入这两个值
 
-![Untitled 3](https://user-images.githubusercontent.com/41355260/124374453-e565ea00-dccd-11eb-954c-fa1c20fc200b.png)
+
+![Untitled 2](https://user-images.githubusercontent.com/41355260/124374452-e0089f80-dccd-11eb-9ce3-3a350f292d07.png)
 
 
 ### 4. 使用
@@ -34,5 +35,6 @@ Alfred全局变量中录入这两个值
 - 回车可在浏览器中打开文档
 - 按⌘可将分享链接复制到剪贴板
 
-![Untitled](https://user-images.githubusercontent.com/41355260/124374456-e8f97100-dccd-11eb-9a68-79c82e185407.png)
+
+![Untitled 3](https://user-images.githubusercontent.com/41355260/124374453-e565ea00-dccd-11eb-954c-fa1c20fc200b.png)
 
