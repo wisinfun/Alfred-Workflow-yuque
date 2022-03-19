@@ -1,6 +1,6 @@
 # Alfred-Workflow-yuque
 
-# [在MacOS 12.3版本上失效的解决办法](https://lancong.notion.site/Alfred-MacOS-12-3-python-workflow-c97b734dc0954053bb01c754f311bff5)
+👉🏻 **[在MacOS 12.3版本上失效的解决办法](https://lancong.notion.site/Alfred-MacOS-12-3-python-workflow-c97b734dc0954053bb01c754f311bff5)**
 
 搜索个人语雀并获取分享链接
 
