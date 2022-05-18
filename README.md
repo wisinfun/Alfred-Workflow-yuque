@@ -1,4 +1,8 @@
 # Alfred-Workflow-yuque
+> 
+> 获取分享链接功能已失效
+>
+
 
 👉🏻 **[在MacOS 12.3版本上失效的解决办法](https://lancong.notion.site/Alfred-MacOS-12-3-python-workflow-c97b734dc0954053bb01c754f311bff5)**
 
