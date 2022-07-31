@@ -1,50 +1,47 @@
-# Alfred-Workflow-yuque
+# 语雀搜索-yuque-Alfred-Workflow
+
+> Uses [alfy](https://github.com/sindresorhus/alfy)
+需要 Node.js 14+ 和 [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 > 
-> 获取分享链接功能已失效
->
 
+## 简介
 
-👉🏻 **[在MacOS 12.3版本上失效的解决办法](https://lancong.notion.site/Alfred-MacOS-12-3-python-workflow-c97b734dc0954053bb01c754f311bff5)**
+在 Alfred 中快速搜索语雀文档、浏览器打开文档、复制文档链接、复制文档分享链接
 
-搜索个人语雀并获取分享链接
+## 功能演示
 
-> 此项目是在 https://github.com/xiaotu9639/alfred-yuque-workflow 的基础上完成的
-> 
-> 新增了快速获取分享链接的功能
-> 
-> 不支持语雀空间
+[Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e0116a8-807e-4e23-a625-d6a0bee62e9a/Untitled.mp4)
 
-## ▍使用说明
+- 快速搜索：使用快捷键 `⌃+Y`或者输入关键词`yq`
+- 复制链接：快捷键`⌘+C`
+- 预览文档：快捷键`⌘+Y`，tips：适用于公开的文档，预览时可以复制文档中的内容
+- 拷贝分享链接到剪贴板：快捷键`⌘+Enter`
 
-### 1. 语雀中获取`Token`
+## 配置步骤
 
-头像→账户设置→Token→新建
-
-### 2. 设置`Token`
-
-Alfred中输入`yq > login` ，输入语雀中获取的Token并回车即可
-
-![Untitled](https://user-images.githubusercontent.com/41355260/124374456-e8f97100-dccd-11eb-9a68-79c82e185407.png)
-
-
-### 3. 设置`Cookie`和`x-csrf-token`
-
-浏览器打开一篇文档，调试模式下可以找到这两个值
-
-![CleanShot 2021-07-04 at 13 15 56@2x](https://user-images.githubusercontent.com/41355260/124374719-4989ad80-dcd0-11eb-8a2c-8c55e2560b60.png)
-
-
-Alfred全局变量中录入这两个值
-
-
-![Untitled 2](https://user-images.githubusercontent.com/41355260/124374452-e0089f80-dccd-11eb-9ce3-3a350f292d07.png)
-
-
-### 4. 使用
-
-- 回车可在浏览器中打开文档（原项目功能）
-- 按⌘可将分享链接复制到剪贴板（新增功能）
-
-
-![Untitled 3](https://user-images.githubusercontent.com/41355260/124374453-e565ea00-dccd-11eb-954c-fa1c20fc200b.png)
-
+1. 安装 Node.js
+    
+    从 [Node 官网](https://nodejs.org/zh-cn/)下载安装，也可以使用 Homebrew 安装
+    
+    ```bash
+    brew install node
+    ```
+    
+2. 在 Release 页下载最新版本 workflow 并安装
+3. 在语雀中获取 `Access Token`
+    
+    打开语雀 → 点击头像 → 账户设置 → Token → 新建 →授权范围全部勾选并创建 → 复制获取到的 `Access Token` 到Alfred的配置页①中
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c87de44a-3cb4-4c72-9dd7-3f1551e04b9f/Untitled.png)
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13760ffa-41ae-4412-bb59-c500c26f1cac/Untitled.png)
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5079fb96-f8d6-4a65-b4cc-94a2ea23f5b1/Untitled.png)
+    
+4. 从浏览器控制台获取 `cookie` 和 `xToken`（不需要分享功能可跳过）
+    
+    打开一遍未分享过的文档 → 打开控制台 → 点击页面上的分享按钮并打开分享开关 → 控制台中切换到网络 → 在网络中找到 `share`记录 →找到 `cookie` 和 `x-csrf-token` →复制冒号后面的内容到Alfred的配置页②③中
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b850da0-0b54-42a8-8f74-31841d4a7baa/Untitled.png)
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5079fb96-f8d6-4a65-b4cc-94a2ea23f5b1/Untitled.png)
