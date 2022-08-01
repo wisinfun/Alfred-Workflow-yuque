@@ -1,8 +1,7 @@
 # 语雀搜索-yuque-Alfred-Workflow
 
-> Uses [alfy](https://github.com/sindresorhus/alfy)
-需要 Node.js 14+ 和 [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
-> 
+> Uses [alfy](https://github.com/sindresorhus/alfy) by sindresorhus
+> 需要 Node.js 14+ 和 [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 
 ## 简介
 
