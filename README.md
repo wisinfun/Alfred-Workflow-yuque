@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/41355260/182030890-759806c2-da83-4f0b-
 2. 在 Release 页下载最新版本 workflow 并安装
 3. 在语雀中获取 `Access Token`
     
-    打开语雀 → 点击头像 → 账户设置 → Token → 新建 → 授权范围全部勾选并创建 → 复制获取到的 `Access Token` 到Alfred的配置页 `①` 中
+    打开语雀 → 点击头像 → 账户设置 → Token → 新建 → 授权范围全部勾选并创建 → 复制获取到的 `Access Token` 到Alfred的配置页 ① 中
     
     ![image](https://user-images.githubusercontent.com/41355260/182030929-8d14553b-1dc9-4b27-a223-74a5e0b93485.png)
 
@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/41355260/182030890-759806c2-da83-4f0b-
     
 4. 从浏览器控制台获取 `cookie` 和 `xToken`（不需要分享功能可跳过）
     
-    打开一遍未分享过的文档 → 打开控制台 → 点击页面上的分享按钮并打开分享开关 → 控制台中切换到网络 → 在网络中找到 `share`记录 → 找到 `cookie` 和 `x-csrf-token` → 复制冒号后面的内容到 Alfred 的配置页 `②③` 中
+    打开一遍未分享过的文档 → 打开控制台 → 点击页面上的分享按钮并打开分享开关 → 控制台中切换到网络 → 在网络中找到 `share`记录 → 找到 `cookie` 和 `x-csrf-token` → 复制冒号后面的内容到 Alfred 的配置页 ②③ 中
     
     ![image](https://user-images.githubusercontent.com/41355260/182031028-aa619970-701e-4077-8450-45b04da1c4e2.png)
 
