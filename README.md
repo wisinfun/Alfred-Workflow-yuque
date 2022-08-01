@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/41355260/182030890-759806c2-da83-4f0b-
     brew install node
     ```
     
-2. 在 Release 页下载最新版本 workflow 并安装
+2. 在 [Release](https://github.com/wisinfun/Alfred-Workflow-yuque/releases) 页下载最新版本 workflow 并安装
 3. 在语雀中获取 `Access Token`
     
     打开语雀 → 点击头像 → 账户设置 → Token → 新建 → 授权范围全部勾选并创建 → 复制获取到的 `Access Token` 到Alfred的配置页 ① 中
