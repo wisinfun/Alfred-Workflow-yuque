@@ -1,20 +1,18 @@
-# 语雀搜索-yuque-Alfred-Workflow
+# 语雀搜索-yuque-Alfred-Workflow-使用说明-1.4
 
-> Uses [alfy](https://github.com/sindresorhus/alfy) by sindresorhus，
-> 需要 Node.js 14+ 和 [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
+> Uses [alfy](https://github.com/sindresorhus/alfy) by sindresorhus
+需要 Node.js 14+ 和 [Alfred 5 Powerpack](https://www.alfredapp.com/powerpack/)
+> 
 
 ## 简介
 
-在 Alfred 中快速搜索语雀文档、浏览器打开文档、复制文档链接、复制文档分享链接。
+在 Alfred 中快速搜索语雀文档、浏览器打开文档、复制文档链接、切换文档的分享状态
 
-## 功能演示
-
-https://user-images.githubusercontent.com/41355260/182030890-759806c2-da83-4f0b-b6b4-d5e2d3d62461.mp4
-
-- 快速搜索：使用快捷键 `⌃+Y` 或者输入关键词 `yq`，`Enter` 即可在默认浏览器打开文档
-- 复制链接：快捷键 `⌘+C`
+- 快速搜索：使用快捷键 `⌃+Y` 或者输入关键词 `yq`，`Enter`
+即可在默认浏览器打开文档
+- 复制链接：快捷键 `⌘+C` 或 `⌘+Enter`
 - 预览文档：快捷键 `⌘+Y`，tips：适用于公开的文档，预览时可以复制文档中的内容
-- 拷贝分享链接到剪贴板：快捷键 `⌘+Enter`
+- 切换文档分享状态：快捷键 `⇧+Enter`
 
 ## 配置步骤
 
@@ -31,21 +29,14 @@ https://user-images.githubusercontent.com/41355260/182030890-759806c2-da83-4f0b-
     
     打开语雀 → 点击头像 → 账户设置 → Token → 新建 → 授权范围全部勾选并创建 → 复制获取到的 `Access Token` 到Alfred的配置页 ① 中
     
-    ![image](https://user-images.githubusercontent.com/41355260/182030929-8d14553b-1dc9-4b27-a223-74a5e0b93485.png)
-
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c87de44a-3cb4-4c72-9dd7-3f1551e04b9f/Untitled.png)
     
-    ![image](https://user-images.githubusercontent.com/41355260/182030987-6973bb0d-82a3-46ad-9f16-9fdc16fd3ac5.png)
-
+4. 从浏览器控制台获取 `cookie` 和 `x-csrf-token`（不需要分享功能可跳过）
     
-    ![image](https://user-images.githubusercontent.com/41355260/182031013-7deabd59-7d2d-4464-adfd-6f8f694be88f.png)
-
+    打开一遍未分享过的文档 → 打开控制台 → 点击页面上的分享按钮并打开分享开关 → 控制台中切换到网络 → 在网络中找到 `meta` 记录 → 找到 `cookie` 和 `x-csrf-token` → 复制冒号后面的内容到Alfred的配置页 ②③ 中
     
-4. 从浏览器控制台获取 `cookie` 和 `xToken`（不需要分享功能可跳过）
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af523db9-7875-4a28-9d08-965dd15fad14/Untitled.png)
     
-    打开一遍未分享过的文档 → 打开控制台 → 点击页面上的分享按钮并打开分享开关 → 控制台中切换到网络 → 在网络中找到 `share`记录 → 找到 `cookie` 和 `x-csrf-token` → 复制冒号后面的内容到 Alfred 的配置页 ②③ 中
+5. 配置相关参数
     
-    ![image](https://user-images.githubusercontent.com/41355260/182031028-aa619970-701e-4077-8450-45b04da1c4e2.png)
-
-    
-    ![image](https://user-images.githubusercontent.com/41355260/182031044-d4d4363c-6762-4311-a695-de52cd822177.png)
-
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12e1662e-ec24-4b68-8da1-8aa01f9a4b2d/Untitled.png)
