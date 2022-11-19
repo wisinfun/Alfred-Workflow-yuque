@@ -18,7 +18,7 @@
 
 1. 安装 Node.js
     
-    从 [Node 官网](https://nodejs.org/zh-cn/)下载安装，也可以使用 Homebrew 安装
+    从 [Node 官网](https://nodejs.org/zh-cn/)下载安装，也可以使用 Homebrew 安装.
     
     ```bash
     brew install node
